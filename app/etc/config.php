@@ -225,9 +225,8 @@ return [
         'Magento_PaypalReCaptcha' => 1,
         'MSP_TwoFactorAuth' => 1,
         'Temando_Shipping' => 1,
-        'Toptal_Blog' => 1,
         'Vertex_Tax' => 1,
-        'VoiceQr_Record' => 1,
+        'VolkerKuehn_VoicePlusQrCode' => 1,
         'Yotpo_Yotpo' => 1
     ]
 ];

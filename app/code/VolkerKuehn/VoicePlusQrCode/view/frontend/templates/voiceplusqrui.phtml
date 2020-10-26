@@ -1,0 +1,22 @@
+<div id="controls">
+    <button class="record-buttons" id="recordButton">Record</button>
+    <button class="record-buttons" id="pauseButton" >Pause</button>
+    <button class="record-buttons" id="stopButton" >Stop</button>
+    
+</div>
+
+<div>
+<ol id="recordingsList"></ol>
+<div id="qrcode"></div>
+</div>
+<script type="text/javascript">
+        require([
+            'jquery',   
+            'recorder',
+            'record'
+            
+        ], function(){        
+
+        });
+</script>
+<!-- <script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script> -->
