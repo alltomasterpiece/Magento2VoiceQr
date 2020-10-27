@@ -226,7 +226,7 @@ return [
         'MSP_TwoFactorAuth' => 1,
         'Temando_Shipping' => 1,
         'Vertex_Tax' => 1,
-        'VolkerKuehn_VoicePlusQrCode' => 1,
+        'Volker_VoiceQr' => 1,
         'Yotpo_Yotpo' => 1
     ]
 ];

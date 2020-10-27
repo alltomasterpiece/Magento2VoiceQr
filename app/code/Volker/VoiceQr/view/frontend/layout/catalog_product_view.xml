@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+     <head>
+        <!-- <script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+        <script src="js/app.js"></script> -->
+        <!-- <script src="VoiceQr_Record::js/record.js"/> -->
+    </head> 
+    <body>
+        <referenceContainer name="product.info.main">
+            <block class="Volker\VoiceQr\Block\VoiceQr" name="volker.voiceqr.inlayout"  
+            template="Volker_VoiceQr::voiceqrui.phtml">
+            </block>
+        </referenceContainer>
+    </body>
+</page>
